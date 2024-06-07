@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Browser Auto Closer",
+    "version": "1.0",
+    "description": "An extension that closes the browser after a specified time.",
+    "permissions": [
+      "alarms",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "browser_auto_closer_icon.png",
+        "48": "browser_auto_closer_icon.png",
+        "128": "browser_auto_closer_icon.png"
+      }
+    }
+  }
+  
