@@ -1,5 +1,3 @@
-// popup.js
-
 document.getElementById("setTimer").addEventListener("click", () => {
     let time = document.getElementById("time").value;
     if (time && !isNaN(time)) {
